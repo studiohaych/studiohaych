@@ -42,6 +42,69 @@
   <footer>
     <p>Contact us: <a href="mailto:hello@studiohaych.com">hello@studiohaych.com</a> | Phone: 01234 567890</p>
     <p>&copy; 2025 Studiohaych. All rights reserved.</p>
+
   </footer>
 </body>
 </html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f8f5f0;
+  color: #3a3a3a;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7d6a5f;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7d6a5f;
+  font-weight: 500;
+}
+
+.section {
+  padding: 80px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.section:nth-child(even) {
+  background-color: #f3f1ec;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  color: #7d6a5f;
+  font-size: 14px;
+  border-top: 1px solid #eaeaea;
+}
